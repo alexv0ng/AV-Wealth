@@ -21,6 +21,17 @@ p {
 
 /* Utility Classes */
 
+.container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+
+.text-center {
+	text-align: center;
+}
+
 .text-primary {
 	color: #93cb52;
 }
@@ -33,6 +44,12 @@ p {
 	padding: 0.6rem;
 	border-radius: 0.5rem;
 	border: none;
+}
+
+.medium-heading {
+	font-size: 2rem;
+	margin: 0.75rem;
+	line-height: 1.1;
 }
 
 .lead-text {
@@ -49,6 +66,20 @@ p {
 
 .btn:hover {
 	background-color: #7ab436;
+}
+
+.bg-light {
+	background-color: #f4f4f4;
+}
+
+.padding-y-1 {
+	padding: 1.5rem 0;
+}
+.padding-y-2 {
+	padding: 2rem 0;
+}
+.padding-y-3 {
+	padding: 3rem 0;
 }
 
 /* NavBar */
@@ -103,8 +134,30 @@ p {
 	/* width: 100vw; */
 
 	/* overlay */
-	/* position: absolute; */
-	top: 60px;
+	position: absolute;
+	top: 65px;
+	right: 0;
+	left: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* What We Do */
+
+#what-we-do .flex-container {
+	display: flex;
+	padding: 1rem;
+}
+
+#what-we-do .flex-container .flex-items {
+	flex: 1;
+	text-align: center;
+	padding: 1rem;
+}
+
+#what-we-do .flex-container .flex-items i {
+	background-color: #93cb52;
+	padding: 1rem;
+	border-radius: 50%;
+	margin-bottom: 1rem;
 }
