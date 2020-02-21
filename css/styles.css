@@ -24,6 +24,28 @@ p {
 	color: #93cb52;
 }
 
+.lead-heading {
+	font-size: 4rem;
+	margin-bottom: 0.75rem;
+	line-height: 1.1;
+	background-color: #93cb52;
+	padding: 0.6rem;
+	border-radius: 0.5rem;
+	border: none;
+}
+
+.lead-text {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.btn {
+	color: #fff;
+	background-color: #93cb52;
+	padding: 0.5rem;
+	border-radius: 0.32rem;
+}
+
 /* NavBar */
 
 #navbar {
@@ -60,15 +82,24 @@ p {
 /* Showcase */
 
 #showcase {
-	background: #2a2a2a url(../images/showcase/cityatnight.jpeg) no-repeat center center / cover;
+	background: #2a2a2a url(../images/showcase/calculator.jpg) no-repeat center center / cover;
 	height: 100vh;
 	color: #fff;
 }
 
-.showcase-content {
-	height: inherit;
+#showcase .showcase-content {
 	display: flex;
+	flex-direction: column;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	height: 100%;
+	padding: 0 2rem;
+	/* width: 100vw; */
+
+	/* overlay */
+	/* position: absolute; */
+	top: 60px;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.2);
 }
