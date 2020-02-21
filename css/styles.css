@@ -56,3 +56,19 @@ p {
 	background-color: #93cb52;
 	border-radius: 0.32rem;
 }
+
+/* Showcase */
+
+#showcase {
+	background: #2a2a2a url(../images/showcase/cityatnight.jpeg) no-repeat center center / cover;
+	height: 100vh;
+	color: #fff;
+}
+
+.showcase-content {
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
