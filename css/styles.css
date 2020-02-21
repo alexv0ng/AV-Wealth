@@ -40,6 +40,7 @@ p {
 
 #navbar ul {
 	list-style: none;
+	padding-right: 2rem;
 
 	display: flex;
 	align-items: center;
