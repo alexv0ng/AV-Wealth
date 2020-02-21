@@ -48,7 +48,7 @@ p {
 
 .medium-heading {
 	font-size: 2rem;
-	margin: 0.75rem;
+	margin: 0.75rem 0;
 	line-height: 1.1;
 }
 
@@ -70,6 +70,12 @@ p {
 
 .bg-light {
 	background-color: #f4f4f4;
+	color: #2a2a2a;
+}
+
+.bg-dark {
+	background-color: #2a2a2a;
+	color: #fff;
 }
 
 .padding-y-1 {
@@ -80,6 +86,26 @@ p {
 }
 .padding-y-3 {
 	padding: 3rem 0;
+}
+
+.padding-1 {
+	padding: 1.5rem;
+}
+.padding-2 {
+	padding: 2rem;
+}
+.padding-3 {
+	padding: 3rem;
+}
+
+.list {
+	margin: 0.5rem 0;
+	list-style: none;
+}
+
+.list li {
+	padding: 0.5rem;
+	border-bottom: #444 solid 1px;
 }
 
 /* NavBar */
@@ -149,15 +175,30 @@ p {
 	padding: 1rem;
 }
 
-#what-we-do .flex-container .flex-items {
+.flex-container .flex-items {
 	flex: 1;
 	text-align: center;
 	padding: 1rem;
+	font-weight: bold;
 }
 
-#what-we-do .flex-container .flex-items i {
+.flex-container .flex-items i {
 	background-color: #93cb52;
 	padding: 1rem;
 	border-radius: 50%;
 	margin-bottom: 1rem;
+}
+
+/* Our Team */
+
+#meet-the-team {
+	display: flex;
+}
+
+#meet-the-team div {
+	flex: 1;
+}
+
+#meet-the-team .team-img {
+	background: url(../images/showcase/our-team.jpeg) no-repeat center center/cover;
 }
