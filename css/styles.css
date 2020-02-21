@@ -161,3 +161,17 @@ p {
 	border-radius: 50%;
 	margin-bottom: 1rem;
 }
+
+/* Our Team */
+
+#meet-the-team {
+	display: flex;
+}
+
+#meet-the-team div {
+	flex: 1;
+}
+
+#meet-the-team .team-img {
+	background: url(../images/showcase/our-team.jpeg) no-repeat center center/cover;
+}
