@@ -8,6 +8,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.4;
 }
 
 a {
@@ -42,8 +43,12 @@ p {
 .btn {
 	color: #fff;
 	background-color: #93cb52;
-	padding: 0.5rem;
+	padding: 0.5rem 1rem;
 	border-radius: 0.32rem;
+}
+
+.btn:hover {
+	background-color: #7ab436;
 }
 
 /* NavBar */
@@ -101,5 +106,5 @@ p {
 	/* position: absolute; */
 	top: 60px;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.3);
 }
