@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 * {
 	padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display', sans-serif;
 	line-height: 1.4;
 }
 
@@ -23,7 +25,7 @@ p {
 
 .container {
 	max-width: 1100px;
-	margin: auto;
+	margin: 0 auto;
 	padding: 0 2rem;
 	overflow: hidden;
 }
@@ -35,19 +37,22 @@ p {
 .text-primary {
 	color: #93cb52;
 }
+.text-primary-2 {
+	color: #fff;
+}
 
 .lead-heading {
 	font-size: 4rem;
 	margin-bottom: 0.75rem;
 	line-height: 1.1;
 	background-color: #93cb52;
-	padding: 0.6rem;
+	padding: 0.6rem 1rem;
 	border-radius: 0.5rem;
 	border: none;
 }
 
 .medium-heading {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	margin: 0.75rem 0;
 	line-height: 1.1;
 }
@@ -69,7 +74,7 @@ p {
 }
 
 .bg-light {
-	background-color: #f4f4f4;
+	background-color: #93cb52;
 	color: #2a2a2a;
 }
 
@@ -178,15 +183,16 @@ p {
 .flex-container .flex-items {
 	flex: 1;
 	text-align: center;
-	padding: 1rem;
+	padding: 0 1rem;
 	font-weight: bold;
 }
 
 .flex-container .flex-items i {
-	background-color: #93cb52;
+	background-color: #2a2a2a;
+	color: #93cb52;
 	padding: 1rem;
 	border-radius: 50%;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 /* Our Team */
@@ -201,4 +207,20 @@ p {
 
 #meet-the-team .team-img {
 	background: url(../images/showcase/our-team.jpeg) no-repeat center center/cover;
+}
+
+/* Our clientsx */
+
+#clients .flex-container {
+	display: flex;
+}
+#clients .flex-container img {
+	display: block;
+	/* margin: auto; */
+	width: 85%;
+	margin: 2rem auto;
+}
+
+#clients h2 {
+	margin-bottom: 2rem;
 }
