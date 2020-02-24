@@ -224,3 +224,36 @@ p {
 #clients h2 {
 	margin-bottom: 2rem;
 }
+
+/* contact us */
+
+#contact-us {
+	display: flex;
+	flex: 1;
+}
+
+.contact-form {
+	flex: 1;
+}
+/* input {
+	width: 100%;
+	padding: 1%;
+} */
+
+.form {
+	margin: 1rem 0;
+}
+
+.contact-form .form input,
+.contact-form .form textarea {
+	display: block;
+	width: 100%;
+	padding: 1%;
+	font-size: 1rem;
+	/* margin: 1%; */
+}
+.google-map {
+	border: 1px solid red;
+	background-color: red;
+	flex: 2;
+}
