@@ -248,12 +248,32 @@ p {
 .contact-form .form textarea {
 	display: block;
 	width: 100%;
-	padding: 1%;
-	font-size: 1rem;
-	/* margin: 1%; */
+	padding: 0.5rem;
+	font-size: 0.7rem;
+}
+
+.contact-form .form input:hover,
+.contact-form .form textarea:hover {
+	border: 2px ridge blue;
 }
 .google-map {
 	border: 1px solid red;
 	background-color: red;
 	flex: 2;
+}
+
+.btn-dark {
+	width: 100%;
+	text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+	background-color: #2a2a2a;
+	border: 1px solid red;
+}
+
+footer .social-media a {
+	color: #fff;
 }
