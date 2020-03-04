@@ -269,8 +269,6 @@ p {
   border: 2px ridge blue;
 }
 .google-map {
-  border: 1px solid red;
-  background-color: red;
   flex: 2;
 }
 
@@ -295,6 +293,7 @@ p {
 
 #footer {
   display: flex;
+  padding: 0.5rem;
 }
 
 #footer .social-media a {
@@ -306,15 +305,20 @@ p {
 #footer .social-media {
   display: flex;
   align-items: center;
-  /* margin-top: 2.2rem; */
 }
 
 #footer div {
   flex: 1;
-  /* padding: 2rem; */
 }
 
 .company-logo h2 {
   padding: 1rem;
+  align-items: center;
   border-right: 1px solid white;
+}
+
+.copyright {
+  display: block;
+  padding: 0.4rem;
+  font-size: 0.9rem;
 }
