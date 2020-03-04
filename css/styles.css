@@ -276,6 +276,18 @@ p {
 
 /* footer */
 
-/* footer {
-  background-color: #2a2a2a;
-} */
+#footer .social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+#footer .social-media p {
+  padding: 0 1rem;
+}
