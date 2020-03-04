@@ -58,7 +58,7 @@ p {
 }
 
 .smaller-heading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0.75rem 0;
   line-height: 1.1;
 }
@@ -282,12 +282,13 @@ p {
 }
 
 .footer-container {
-  max-width: 600px;
+  max-width: 40%;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 1rem;
   overflow: hidden;
 }
 
-#footer .social-media p {
-  padding: 0 1rem;
+#footer .social-media a {
+  color: #fff;
+  padding: 1rem 1rem 0rem 1rem;
 }
