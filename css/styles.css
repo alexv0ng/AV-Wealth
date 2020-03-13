@@ -164,9 +164,12 @@ p {
     center / cover;
   height: 100vh;
   color: #fff;
+  /* position: relative; */
 }
 
 #showcase .showcase-content {
+  position: absolute;
+  top: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -174,7 +177,6 @@ p {
   align-items: center;
   height: 100%;
   padding: 0 2rem;
-  /* width: 100vw; */
 
   /* overlay */
   position: absolute;
@@ -196,7 +198,6 @@ p {
   flex: 1;
   text-align: center;
   padding: 0 1rem;
-  /* font-weight: bold; */
 }
 
 .flex-container .flex-items i {
@@ -209,7 +210,11 @@ p {
 
 h3 {
   font-weight: bolder;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 + p {
+  color: #fff;
 }
 
 /* Our Team */
